@@ -5,4 +5,5 @@ while collection.length > i
   puts arr << yield(collection[i]).split(" ").first 
   i += 1
   end
+  arr
 end
